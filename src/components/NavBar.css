@@ -1,0 +1,20 @@
+.navbar {
+  display: flex;
+  justify-content: space-evenly;  /* evenly spaces items */
+  align-items: center;
+  background: #f8f9fa;
+  padding: 1rem;
+  gap: 1rem;                      /* fallback spacing */
+}
+
+.nav-button {
+  padding: 0.5rem 1rem;
+  background: #007acc;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.nav-button.active {
+  background: #005fa3;
+}
