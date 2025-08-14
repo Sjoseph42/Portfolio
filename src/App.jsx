@@ -4,6 +4,7 @@ import {Bio} from "./pages/Bio"
 import {Projects} from "./pages/Projects"
 import {Skills} from "./pages/Skills"
 import {Contact} from "./pages/Contact"
+import './App.css'; 
 
 export default function App() {
   return (
