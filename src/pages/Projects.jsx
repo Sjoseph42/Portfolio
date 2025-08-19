@@ -1,18 +1,18 @@
 const projects = [
   {
-    name: 'Testing A',
-    url: 'https://github.com/yourname/project-a',
-    description: 'This is just a test.'
+    name: 'Garden Scheduler',
+    url: 'https://wol42verine.github.io/Gardening-Scheduler/',
+    description: 'This is an early project from the OSU Programming Bootcamp, demonstrating the use of API databases to display information on plants, with a gardening focus, and a weather report. The APIs are limited but showcased my early efforts to build a functional and aesthetic UI.'
   },
   {
-    name: 'Testing B',
-    url: 'https://yourdomain.com/project-b',
-    description: 'This is also a test.'
+    name: 'City Weather',
+    url: 'https://wol42verine.github.io/Weather-Dashboard/',
+    description: 'Another early project from the OSU Programming Bootcamp, this application showcased API databases to provide weather information based on a desired city, up to date. The project further demonstrated the team effort to build a functional, and useful, web application.'
   },
    {
-    name: 'Testing C',
-    url: 'https://yourdomain.com/project-b',
-    description: 'Yet another test.'
+    name: 'Employee Database: Github Page',
+    url: 'https://github.com/wol42verine/12-Challenge',
+    description: 'This application is designed for users to organize employee information, such as names and ID numbers, though a simple CLI. It is designed to be installed, and thus the link above takes one to the GitHub page, where the Readme details installation and features.'
   },
 ];
 
