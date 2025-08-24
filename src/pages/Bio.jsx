@@ -10,11 +10,14 @@ Over the past few years, I’ve built and deployed applications using JavaScript
 
 Driven by a deep curiosity in AI programming, I explore topics like machine learning model deployment, natural language processing, and data pipelines. Outside of coding, I enjoy experimenting with coding and AI applications, contributing to open-source projects, and staying current on emerging technologies.</p>
          <p>
-        <a
-          href="/resume.docx"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+       <a
+  href={process.env.PUBLIC_URL + "/resume.docx"}
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  View my resume
+</a>
+
           View my resume
         </a>
       </p>
