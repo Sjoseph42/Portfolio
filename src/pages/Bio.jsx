@@ -9,15 +9,12 @@ export function Bio() {
 Over the past few years, I’ve built and deployed applications using JavaScript (React, Node.js), Python (Flask, Django), and cloud services. I thrive on translating complex problems into clean, maintainable code and collaborating in agile teams to deliver real-world solutions.
 
 Driven by a deep curiosity in AI programming, I explore topics like machine learning model deployment, natural language processing, and data pipelines. Outside of coding, I enjoy experimenting with coding and AI applications, contributing to open-source projects, and staying current on emerging technologies.</p>
-         <p>
-       <a
-  href={process.env.PUBLIC_URL + "/resume.docx"}
-  target="_blank"
-  rel="noopener noreferrer"
->
-  View my resume
-</a>
-
+      <p>
+        <a
+          href="/Portfolio/public/resume.docx"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           View my resume
         </a>
       </p>
