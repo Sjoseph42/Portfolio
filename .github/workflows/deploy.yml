@@ -1,0 +1,25 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false    # Graceful with gh-pages 
+      - uses: pnpm/action-setup@v2     # Or use actions/setup-node if you prefer npm/yarn
+        with:
+          version: 18
+      - run: pnpm install              # Or: npm ci / yarn install
+      - run: pnpm build                # Or: npm run build / yarn build
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v5
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
